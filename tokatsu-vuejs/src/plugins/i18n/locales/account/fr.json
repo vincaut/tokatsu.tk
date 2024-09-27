@@ -1,0 +1,11 @@
+{
+    "account": {
+        "notVerifiedTitle": "Ce compte n'a pas été vérifié",
+        "notVerifiedMessage": "Veuillez attendre que l'administrateur vérifie votre compte"
+    },
+
+    "admin": {
+        "notAdminTitle": "Vous n'êtes pas administrateur",
+        "notAdminMessage": "Vous n'avez pas les droits pour accéder à cette page"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "myAccount": "Mon compte",
+    "register": "Inscription",
+    "connexion": "Connexion",
+    "error": "Une erreur est survenue",
+    "login": {
+        "idOrPasswordIncorrect": "Identifiant ou mot de passe incorrect",
+        "loginSuccess": "Connexion réussie",
+        "emailInvalid": "Votre adresse e-mail est invalide",
+        "emailAlreadyUse": "Cette adresse e-mail est déjà utilisée",
+        "pseudoAlreadyUse": "Ce pseudo est déjà utilisé",
+        "passwordDiff": "Les mots de passe sont différents",
+        "askLogin": "Connectez-vous",
+        "checking": "Vérification en cours...",
+        "logout": "Déconnexion",
+        "logoutSuccess": "Déconnexion réussie",
+        "logoutAll": "Déconnexion de tous les appareils",
+        "logoutAllSuccess": "Déconnexion de tous les appareils réussie",
+        "logoutAllConfirm": "Êtes-vous sûr de vouloir vous déconnecter de tous les appareils ?",
+        "deleteAccount": "Supprimer mon compte",
+        "deleteAccountConfirm": "Êtes-vous sûr de vouloir supprimer votre compte ?",
+        "connectToAccess": "Connectez-vous pour accéder à cette page",
+        "connectToAccessMessage": "Vous devez être connecté pour accéder à cette page"
+    },
+    "session": {
+        "expired": "Votre session a expiré",
+        "expiredMessage": "Votre session a expiré, veuillez vous reconnecter",
+        "expiredTitle": "Session expirée"
+    }
+}

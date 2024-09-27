@@ -1,0 +1,152 @@
+h2 {
+  color: rgb(255, 238, 218);
+  text-align: center;
+}
+
+.saison {
+  position : sticky;
+  top: 100px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(112, 66, 54);
+  z-index: 3;
+}
+
+#intro .grid{
+  grid-template-columns: repeat(2, 1fr) !important;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro div div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#intro .description {
+  margin-top: 1em;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.episode{   
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.216);
+  color: #fff;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(59, 53, 53);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: all 0.3s;
+
+  height: 200px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.episode:hover{
+    background-color: rgba(0, 0, 0, 0.436);
+    box-shadow: 0 0 10px rgb(59, 53, 53);
+    color: rgba(255, 255, 255, 0.097);
+}
+
+.episode .description{
+  position: absolute;
+  top: 100%;
+  padding: 1em;
+  height: 200px;
+  overflow: auto;
+  transition: all 0.3s;
+}
+.episode:hover .description{
+  top: 0;
+  color :#fff !important;
+  z-index: 2;
+}
+
+.episode p{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.411);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  transition: all 0.3s;
+  z-index: 1;
+}
+.episode ._thumbnail{
+  filter: brightness(0.7);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.episode .play{
+  position: absolute;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  transition: all 0.3s;
+  filter: brightness(0.7);
+}
+
+.episode:hover img{
+  filter: brightness(0.2);
+}
+
+.episode:active  {
+    background-color: rgba(0, 0, 0, 0.753);
+    color: #fff;
+    box-shadow: 0 0 5px rgb(59, 53, 53);
+    transform: scale(0.95);
+}
+
+.episode .progressView
+{
+    position: absolute;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    z-index: 1;
+}
+
+.episode:hover .progressView
+{
+    background-color: rgb(99, 0, 0);
+
+}
+
+@media screen and (max-width: 500px){
+    .saison{
+        top: 200px;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

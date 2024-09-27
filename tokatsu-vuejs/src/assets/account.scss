@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.infoPerso {
+    div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        align-items: center;
+    }
+}

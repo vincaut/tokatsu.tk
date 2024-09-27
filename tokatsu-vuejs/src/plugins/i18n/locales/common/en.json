@@ -1,0 +1,13 @@
+{
+    "Inscription": "Sign up",
+    "Connexion": "Log in",
+    "Une erreur est survenue": "An error has occurred",
+   "login": {
+        "Identifiant ou mot de passe incorrect": "Incorrect username or password",
+        "Connexion réussie": "Successful connection",
+        "Votre adresse e-mail est invalide": "Your email address is invalid",
+        "Cette adresse e-mail est déjà utilisée": "This email address is already used",
+        "Ce pseudo est déjà utilisé": "This nickname is already used",
+        "Les mots de passe sont différents": "Passwords are different"
+    }
+}

@@ -1,0 +1,39 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px;
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #777777;
+    border-radius: 10px;
+}
+
+.dispositionButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register {
+    color: white;
+}
+
+#status{
+    font-size: 20px;
+    color: red;
+}
