@@ -1,10 +1,10 @@
 import axios from 'axios';
-import App from '../../App.vue';
+//import App from '../../App.vue';
 import { notify } from "@kyvg/vue3-notification";
 import router from '@/router';
 import i18n from '../i18n';
 
-declare const ENV_API_BASE_URL: string;
+const ENV_API_BASE_URL = import.meta.env.ENV_API_BASE_URL as string;
 
 export default {
     configuration() {
@@ -12,7 +12,7 @@ export default {
         //App.prototype.$http = axios;
 
         // Default http request URL
-        // axios.defaults.baseURL = ENV_API_BASE_URL;
+        axios.defaults.baseURL = ENV_API_BASE_URL;
 
         // Auto add the 'application/json' to request header
         axios.defaults.headers.common['Content-Type'] = 'application/json';
