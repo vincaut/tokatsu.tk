@@ -8,3 +8,7 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+# Videos
+data/videos/*
+!data/videos/.gitignore
